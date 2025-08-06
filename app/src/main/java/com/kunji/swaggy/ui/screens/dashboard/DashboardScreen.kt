@@ -1,4 +1,4 @@
-// File: DashboardScreen.kt
+
 package com.kunji.swaggy.ui.screens.dashboard
 
 import androidx.compose.foundation.Image
@@ -69,7 +69,7 @@ fun DashboardScreen(navController: NavController) {
                 .fillMaxSize()
         ) {
             Spacer(modifier = Modifier.height(50.dp))
-            Text(text = "Hi Samantha", fontSize = 40.sp, fontWeight = FontWeight.Bold)
+            Text(text = "Hi, Samantha", fontSize = 40.sp, fontWeight = FontWeight.Bold)
             Spacer(modifier = Modifier.height(8.dp))
             Text("Here are your projects")
             Spacer(modifier = Modifier.height(8.dp))
@@ -160,7 +160,6 @@ fun DashboardScreen(navController: NavController) {
                 }
             }
 
-// ↓ Add this below the "Personal Tasks" Text in DashboardScreen:
 
             Spacer(modifier = Modifier.height(8.dp))
 
@@ -195,7 +194,7 @@ fun FeatureCard(
     onClick: () -> Unit
 ) {
     Card(
-        onClick = onClick,
+        onClick = {},
         modifier = Modifier
             .width(160.dp)
             .height(260.dp),
