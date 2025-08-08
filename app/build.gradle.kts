@@ -71,6 +71,14 @@ dependencies {
     implementation("androidx.room:room-ktx:2.6.1")
     //End
 
+    // Image Loading (Coil for Jetpack Compose)
+    implementation ("io.coil-kt:coil-compose:2.4.0")
+
+    //Livedata
+    implementation("androidx.compose.runtime:runtime-livedata:1.6.7")
+
+
+
 
 
 
